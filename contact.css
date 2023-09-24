@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat:wght@200;300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Tektur', cursive;
+        }
+
+        .disabled-link {
+            cursor: default;
+            pointer-events: none;
+            text-decoration: none;
+            color: black;
+        }
+
+        body {
+            overflow-x: hidden;
+            overflow-x: hidden;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+
+        .loader {
+            height: 2px;
+            width: 100vw;
+            background-color: red;
+            animation: load 1.5s forwards;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0vw;
+            }
+
+            50% {
+                width: 65vw;
+            }
+
+            70% {
+                width: 87vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+
+        .header .logo-space {
+            background-color: rgb(4, 82, 124);
+            padding: 2.3% 0px;
+        }
+
+        .header .logo-space img {
+            position: absolute;
+            left: 21%;
+            top: 1%;
+            height: 12vh;
+            border-radius: 5% 50%;
+            box-shadow: rgb(4, 82, 124) 0px 50px 100px -35px, rgb(4, 82, 124) 0px 30px 60px -20px, rgb(4, 82, 124) 0px -2px 10px 0px inset;
+        }
+
+        .header .company-name {
+            position: absolute;
+            top: 3%;
+            left: 28%;
+            font-size: xx-large;
+            font-family: 'Croissant One', cursive;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .header nav {
+            z-index: 1;
+        }
+
+        .header nav ul {
+            background-color: #a9d9ea;
+            height: 7vh;
+            width: 70vw;
+            list-style-type: none;
+            display: flex;
+            padding: 0 23px;
+            position: absolute;
+            left: 30%;
+            border-radius: 0 0 0 50px;
+        }
+
+        .header nav ul li {
+            margin: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 36px;
+            cursor: pointer;
+        }
+
+        .header nav ul li:hover {
+            background-color: rgb(4, 82, 124);
+            color: white;
+            border-radius: 25px;
+        }
+
+        .header nav ul a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .header .nav-styler {
+            background-color: #a9d9ea;
+            height: 5vh;
+        }
+
+        .header .wrap .search {
+            width: 100%;
+            display: flex;
+            position: relative;
+            top: 5%;
+            right: 10%;
+        }
+
+        .header .wrap .search .searchTerm {
+            width: 100%;
+            border: 3px solid rgb(4, 82, 124);
+            border-right: none;
+            padding: 5px;
+            height: 36px;
+            border-radius: 10px 0 0 10px;
+            outline: none;
+            color: #9DBFAF;
+        }
+
+        .header .wrap .search .searchTerm:focus {
+            color: #00B4CC;
+        }
+
+        .header .wrap .search .searchButton {
+            width: 40px;
+            height: 36px;
+            border: 2px solid rgb(4, 82, 124);
+            background: #ffa756;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .header .wrap {
+            width: 30%;
+            position: absolute;
+            top: 13%;
+            left: 85%;
+            transform: translate(-50%, -50%);
+        }
+
+        .gradient {
+            background: linear-gradient(-90deg, #8e73f0, #23a6d5, #26a7ae);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 60vh;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        #contact {
+            width: 100%;
+            height: 100%;
+        }
+
+        .section-header {
+            padding: 30px 0;
+            text-align: center;
+            font: 300 60px 'Croissant One', sans-serif;
+            color: rgb(4, 82, 124);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-header p {
+            font-family: 'Croissant One', cursive;
+        }
+
+        .social-media {
+            width: 500px;
+            margin: 20px 40px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .social-media img {
+            width: 100px;
+        }
+
+        .contact-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            max-width: 840px;
+        }
+
+        /* Left contact page */
+        .form-horizontal {
+            max-width: 400px;
+            font-weight: 400;
+        }
+
+        .form-control,
+        textarea {
+            max-width: 400px;
+            background-color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .send-button {
+            margin-top: 15px;
+            height: 34px;
+            width: 400px;
+            overflow: hidden;
+            transition: all .2s ease-in-out;
+        }
+
+        .alt-send-button {
+            width: 400px;
+            height: 34px;
+            transition: all .2s ease-in-out;
+        }
+
+        .send-text {
+            display: block;
+            margin-top: 10px;
+            font: 700 12px 'Lato', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .alt-send-button:hover {
+            transform: translate3d(0px, -29px, 0px);
+        }
+
+        /* Begin Right Contact Page */
+        .direct-contact-container {
+            max-width: 400px;
+        }
+
+        /* Location, Phone, Email Section */
+        .contact-list {
+            list-style-type: none;
+            margin-left: 30px;
+            padding-right: 20px;
+        }
+
+        .list-item {
+            line-height: 4;
+            color: rgb(4, 82, 124);
+        }
+
+        .contact-text {
+            font: 300 18px 'Lato', sans-serif;
+            letter-spacing: 1.9px;
+            color: #000000;
+        }
+
+        .place {
+            margin-left: 62px;
+        }
+
+        .phone {
+            margin-left: 56px;
+        }
+
+        .gmail {
+            margin-left: 53px;
+        }
+
+        .contact-text a {
+            color: #000000;
+            text-decoration: none;
+            transition-duration: 0.2s;
+        }
+
+        .contact-text a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .team-icon img{
+            position: absolute;
+            top: 30%;
+            right: 5%;
+            height: 40%;
+            box-shadow: rgb(4, 82, 124) 0px 50px 100px -20px, rgb(4, 82, 124) 0px 30px 60px -30px, rgb(4, 82, 124) 0px -2px 6px 0px inset;
+        }
+
+        .company-icon img{
+            position: absolute;
+            top: 30%;
+            left: 5%;
+            height: 40%;
+            border-radius: 5% 50%;
+            box-shadow: rgb(4, 82, 124) 0px 50px 100px -20px, rgb(4, 82, 124) 0px 30px 60px -30px, rgb(4, 82, 124) 0px -2px 6px 0px inset;
+        }
+
+        .footer {
+            height: 20vh;
+            width: 100vw;
+            background-color: #a9d9ea;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .footer .copyright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer .copyright p {
+            padding: 16px;
+            font-family: 'Croissant One', cursive;
+            font-size: xx-large;
+        }
+
+        .footer .copyright #footer-copyright {
+            font-size: medium;
+        }
+
+        .footer .social-media {
+            height: 10vh;
+            align-items: center;
+            row-gap: 5%;
+            padding: 2%;
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+        }
+
+        .footer .social-media a {
+            text-decoration: none;
+            margin: 0 10px;
+        }

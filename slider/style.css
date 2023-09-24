@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-container {
+    /* for arrow to be absolute, isko relative karna padega */
+    position: relative;        
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color: black;
+    background-color: rgba(238, 232, 232, 0.575);
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 10px 0;
+}
+.slide{
+    /* display none to add slideshow to the slider */
+    display: none;
+}
