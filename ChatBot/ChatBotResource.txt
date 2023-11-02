@@ -1,0 +1,112 @@
+﻿Problem Statement ID - SIH1386
+
+Problem Statement Title - Developing a software for dubbing of videos from English to other Indian regional languages.
+
+Description- CIPAM is engaged in the creation of promotional and awareness videos on Intellectual Property in India. A software that can be used for dubbing of videos from English to other Indian regional languages would help in mass outreach of such videos for public awareness. The software must produce a voiceover (in a human like voice) in Indian vernacular languages like Hindi, Marathi, Bengali, Gujarati, Tamil, Telugu, etc. as well as text supers that is dubbed from English to other Indian regional languages. The translated voiceover must also be in simple language, easy to understand and must not be colloquial in nature. A sample video has been provided for reference.
+
+Category - Software
+
+Technology Bucket - Smart Education
+
+Organization Type - State Ministry
+
+Organization - MINISTRY OF COMMERCE AND INDUSTRIES 
+
+TEAM Name - VISHISHT
+
+TEAM Details - 
+PS Code: SIH1386
+Problem Statement Title: Developing a software for dubbing of videos from English to other Indian regional languages..
+Team Name: Vishisht
+Team Leader Name: Mohammed Khalid
+Institute Code (AISHE): U-0760
+Institute Name: Indian Institute of Information Technology, Chittoor
+Theme Name: Smart Education
+
+Application of our Project - 
+Provides Background Support with All Multimedia Players.
+Access to library of voices for Customised Dubbing.
+Detailed customizable export settings for various platforms.
+Provide Accessibility features for Color-Blind People.
+
+Approach - 
+1) By building Website
+Achieve instant, high-quality real-time dubbing.
+Translate content into multiple Indian regional languages.
+Ensure user content remains confidential and protected.
+Provide accessibility features for color-blind people.
+
+2)By building Chrome Extension
+Operates in background,
+ensuring uninterrupted tasks in Real time.
+Seamlessly integrates with MP3 YouTube for content
+
+﻿Use Case - 
+By including Intonation, Accents, Emotion, and other vital layers of communication, as well as Lip-Smacking and Breathing Patterns.
+Matching Pitch and Amplitude will help convey the Emotions.
+Translate instantly across multiple languages, expand small businesses with Custom Audio Content, and much more
+Help fill in lost information and improve the quality of calls on weak connection
+Run on Every platform.
+
+Dependencies - 
+Active Users
+Ffmpeg-python
+Pydub
+Pocket-sphinx
+Speech-recognition
+Libre translate-py
+gTTS Google Maps API Cloud Hosting
+Database
+Firebase
+
+Business Model - 
+Total Population (150+ Cr)
+Non-English Speakers (120+ Cr)
+Non-English Speakers Consuming Digital Content (50+ Cr)
+
+Free Version - 
+Highly curated
+machine voice
+
+Sales Model 1
+marketing
+Customised real people voices Lip smacking & breathing pattern Expression transfer emotion
+Feedback mechanism
+Fill lost Audio of video call in weak connection
+brand deals
+Diversify
+subscription
+
+Sales Model 2:
+Brands selling their digital Adds to expand their reach
+
+Sales Model 3:
+Commentary
+commercialize
+Podcasting Radio
+Prototype link
+
+Team Member Details
+Dr. Amilpur Santhosh (Mentor) [santhosh.a@iiits.in] (Machine and Deep Learning)
+Dr. Himangshu Sarma (Mentor) [himangshu.sarma@iiits.in] (Human Computer Interaction,Natural Language Processing)
+Mohammed Khalid (Leader) [khalid.md22@iiits.in] B.Tech/UG-2, ECE
+Abhishek Sahay [abhishek.sy22@iiits.in] B.Tech/UG-2, CSE
+Mamatha Mude [mamatha.m22@iiits.in] B.Tech/UG-2, CSE
+Prajwal Kumar [prajwal.k22@iiits.in] B.Tech/UG-2, CSE
+Sujal Awargand [sujalsanjay.a22@iiits.in] B.Tech/UG-2, CSE
+Rohan Vinkare [rohanramesh.v22@iiits.in] B. Tech/UG-2, CSE
+
+Technology Bucket for our project - AI/ML, Cloud Computing, Blockchain
+
+Description for our project - 
+
+Project Overview: DebFusion, created by Team Vishisht for Smart India Hackathon 2023 in collaboration with CIPAM, is a user-friendly solution. It translates English videos into multiple Indian regional languages. Key Objectives: Seamless Translation: Make English videos accessible to everyone by translating them accurately into Indian regional languages. Clear Text and Voice: Ensure both text and voice translations are clear and easy to understand. Quality Control: Maintain high translation quality through rigorous checks and user adjustments. Scalability: Adapt to the diverse linguistic landscape of India by supporting more regional languages. Accessibility: Serve various users, including government, education, business, and individual content creators, making the platform accessible to all. Use Cases: Effective Communication: Beyond translation, DebFusion conveys emotions and intonation, enhancing communication across languages. Emotional Impact: By matching pitch and amplitude, it adds emotional depth to content. Instant Multilingual Translation: Empowers businesses to expand across language boundaries. Universal Access: Makes content accessible even in remote areas with weak network connections. Education: Kids with limited exposure can enjoy top-notch English content in their chosen language. Platform Flexibility: Operates seamlessly on all devices and platforms for user convenience. Conclusion: DebFusion aims to make video content universally accessible, promoting inclusivity and cultural diversity. It's designed to break language barriers, empower users, and enhance the digital world's communication landscape. Join us on this journey to bring quality content to all.
+
+Abstract/Summary of our project - 	
+DebFusion translates English videos into multiple regional Indian languages. Objectives: accurate translation, clear text and voice, quality control, scalability, and accessibility. Enhances communication, conveys emotions, and enables instant multilingual translation.
+
+Aims for universal access, including remote areas and education. Platform agnostic for seamless operation on all devices and platforms. 
+
+Goal: make video content universally accessible, fostering inclusivity and cultural diversity.
+
+Youtube Link for our DebFusion project:	https://youtube.com/@DebFusion-hh5tj?si=I0L0QSYshUUk8ESd
