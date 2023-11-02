@@ -340,6 +340,10 @@ body {
     color: white;
 }
 
+.botStyle{
+    background-color: red;
+}
+
 .footer {
     height: 20vh;
     width: 100vw;
