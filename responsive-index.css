@@ -1,0 +1,218 @@
+@media (max-width:576px) {
+    .header .logo-space {
+        padding: 3.8% 0px;
+    }
+
+    .header .logo-space img {
+        left: 7%;
+        top: 1.5%;
+        height: 8vh;
+    }
+
+    .header .company-name {
+        top: 2%;
+        left: 18%;
+        font-size: larger;
+        font-family: 'Croissant One', cursive;
+    }
+
+    .header nav ul {
+        height: 4.8vh;
+        width: 80vw;
+        right: 0%;
+    }
+
+    .header nav ul li {
+        margin: 1%;
+        padding: 0 8px;
+        cursor: pointer;
+    }
+
+    .header nav ul li:hover {
+        border-radius: 15px;
+    }
+
+    .header .wrap .search {
+        width: 110%;
+        display: flex;
+        position: relative;
+        top: 2.5%;
+        right: 20%;
+    }
+
+    .header .wrap .search .searchButton {
+        font-size: 15px;
+    }
+
+    .header .wrap {
+        width: 30%;
+        position: absolute;
+        top: 7%;
+        right: -9.5%;
+        transform: translate(-50%, -50%);
+    }
+
+    .gradient {
+        height: 40vh;
+    }
+
+    /* Try For Free */
+    .gradient .tryforfree p {
+        font-weight: 600;
+        font-size: xx-small;
+    }
+
+    /* Text content */
+    .gradient .text-content pre {
+        font-size: 0.75rem;
+        text-align: right;
+        position: absolute;
+        top: 18%;
+        left: -3.5%;
+    }
+
+    .gradient .text-content .text pre {
+        font-size: xx-small;
+        position: absolute;
+        top: 33%;
+        left: -6%;
+    }
+
+    /* Carousel */
+    .carousel-container {
+        position: relative;
+        left: 58%;
+        width: 50%;
+    }
+
+    /*Sample Audio */
+    .default-audio {
+        position: relative;
+    }
+
+    .eng audio {
+        position: relative;
+        margin-top: 7%;
+        left: -7%;
+    }
+   
+    #eng-audio {
+        font-size: medium;
+        position: relative;
+        margin: 8px 0;
+        left: 25%;
+    }
+
+    .regional-default-audio #telugu-aud {
+        position: relative;
+        left: -3%;
+        padding: 2% 0;
+    }
+
+    #telugu-audio {
+        font-size: small;
+        position: absolute;
+        top: -30%;
+        left: 3%;
+    }
+
+    .regional-default-audio #marathi-aud {
+        position: relative;
+        left: -3%;
+        padding: 2% 0;
+    }
+
+    #marathi-audio {
+        font-size: small;
+        position: absolute;
+        top: -30%;
+        left: 21%;
+    }
+
+    .regional-default-audio #hindi-aud {
+        position: relative;
+        left: -3%;
+        padding: 2% 0;
+    }
+
+    #hindi-audio {
+        font-size: small;
+        position: absolute;
+        top: -30%;
+        left: 43%;
+    }
+
+    .regional-default-audio #gujarati-aud {
+        position: relative;
+        left: -3%;
+        padding: 2% 0;
+    }
+
+    #gujarati-audio {
+        font-size: small;
+        position: absolute;
+        top: -30%;
+        left: 61%;
+    }
+
+    .regional-default-audio #bangla-aud {
+        position: relative;
+        left: -3%;
+        padding: 2% 0;
+    }
+
+    #bangla-audio {
+        font-size: small;
+        position: absolute;
+        top: -30%;
+        left: 82%;
+    }
+
+    .regional-default-audio {
+        display: flex;
+        justify-content: space-between;
+        margin: 28px;
+        position: relative;
+    }
+
+    .default-audio p {
+        position: absolute;
+        top: 0vh;
+        left: 47.5vw;
+        color: white;
+    }
+
+    /* Use Cases */
+    .use-case #use-case-heading {
+        font-size: large;
+        position: relative;
+        left: 0.75vw;
+    }
+
+    .use-case {
+        height: auto;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        /* Display two columns on smaller screens */
+        overflow: hidden;
+        /* Make it scrollable if content exceeds the height */
+    }
+
+    .use-case #use-case-heading {
+        position: static;
+        /* Reset heading position */
+        font-size: x-large;
+        /* Adjust font size for smaller screens */
+    }
+
+    .use-case .use-case-boxes {
+        padding: 16px;
+    }
+
+    .use-case .use-case-boxes img {
+        height: 18vh;
+        /* Reduce the image size */
+        margin-bottom: 16px;
+        /* Add some spacing between elements */
+    }
+}

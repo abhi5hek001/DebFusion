@@ -7,6 +7,7 @@
     <title style="font-family: 'Montserrat', sans-serif;">DebFusion: Seamlessly Translate English Videos Into Regional
         Languages</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-index.css">
     <link rel="shortcut icon" href="favicon/company-logo.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -39,41 +40,39 @@
 
             <div class="wrap">
                 <div class="search">
-                    <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                    <input type="text" class="searchTerm" placeholder="Search something..">
                     <button type="submit" class="searchButton">
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
             </div>
         </nav>
-        <div class="nav-styler"></div>
+        <!-- <div class="nav-styler"></div> -->
     </div>
 
     <div class="gradient d-flex flex-column justify-content-center">
 
         <div class="tryforfree">
             <a href="https://github.com/prajwal9773/Audio" target="_blank">
-                <p>TRY FOR FREE</p>
+                <p>TRY FOR FREE <i class="fa fa-link"></i>
+                </p>
             </a>
-            <i class="fa fa-link"></i>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <div class="content">
-                <pre>
+        <div class="text-content d-flex flex-column justify-content-center align-items-center">
+            <pre>
                     Customised, Curated,
                     Cross-Platform Audio Software
                     Breaking Language Barriers
                     Bringing English Content
                     To Every Regional Home!
                 </pre>
-                <div class="text">
-                    <pre>
+            <div class="text">
+                <pre>
                         Embrace personalized inclusivity
                         in audio experiences. Join our mission
                         Make English content accessible to all
                         fostering cultural exchange through language
                 </pre>
-                </div>
             </div>
         </div>
 
@@ -101,7 +100,7 @@
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
-                </button>
+                </button>       
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -120,32 +119,31 @@
         <br>
         <div class="regional-default-audio">
             <p id="telugu-audio">TELUGU</p>
-            <audio controls="" src="audio/telugu.m4a"></audio>
+            <audio id="telugu-aud" controls="" src="audio/telugu.m4a"></audio>
             <br>
             <p id="marathi-audio">MARATHI</p>
-            <audio controls="" src="audio/marathi.m4a"></audio>
+            <audio id="marathi-aud" controls="" src="audio/marathi.m4a"></audio>
             <br>
             <p id="hindi-audio">HINDI</p>
-            <audio controls="" src="audio/hindi.m4a"></audio>
+            <audio id="hindi-aud" controls="" src="audio/hindi.m4a"></audio>
             <br>
             <p id="gujarati-audio">GUJARATI</p>
-            <audio controls="" src="audio/gujarati.m4a"></audio>
+            <audio id="gujarati-aud" controls="" src="audio/gujarati.m4a"></audio>
             <br>
             <p id="bangla-audio">BANGLA</p>
-            <audio controls="" src="audio/bangla.m4a"></audio>
+            <audio id="bangla-aud" controls="" src="audio/bangla.m4a"></audio>
         </div>
     </div>
 
     <div class="use-case">
-        <p id="use-case-heading">Use Cases/Features:</p>
+        <!-- <p id="use-case-heading">Use Cases/Features:</p> -->
         <div class="use-case-boxes">
             <img src="img/feature-export.png" alt="">
             <p>Export/Import</p>
             <div class="use-case-content">
-                <pre>Import, edit, and combine sound files.
-Export your recordings in many
-different file formats,including
-multiple files at once.</pre>
+                <pre>Import, edit, and combine sound files.Export your 
+recordings in many different file formats,
+including multiple files at once.</pre>
             </div>
         </div>
         <div class="use-case-boxes">
@@ -233,7 +231,7 @@ detailed frequency analysis.</pre>
         window.botpressWebChat.init({
             "composerPlaceholder": "Chat with DeBot...",
             "botConversationDescription": "This chatbot was built for DebFusion",
-            "botName":"DeBot",
+            "botName": "DeBot",
             "botId": "24d3ffd5-c617-4f22-88d8-77014c2153bc",
             "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
             "messagingUrl": "https://messaging.botpress.cloud",
