@@ -81,7 +81,7 @@ body {
     display: flex;
     padding: 0 23px;
     position: absolute;
-    left: 30%;
+    right: 0%;
     border-radius: 0 0 0 50px;
 }
 
@@ -149,7 +149,7 @@ body {
     width: 30%;
     position: absolute;
     top: 13%;
-    left: 85%;
+    right: -15%;
     transform: translate(-50%, -50%);
 }
 
@@ -157,7 +157,7 @@ body {
     background: linear-gradient(-90deg, #8e73f0, #23a6d5, #26a7ae);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 60vh;
+    height: 70vh;
 }
 
 @keyframes gradient {
@@ -175,21 +175,22 @@ body {
 }
 
 .gradient .tryforfree {
-    height: 30vh;
-    width: 16vw;
-    background-color: rgb(4, 82, 124);
     position: absolute;
     margin: 2.5%;
-    padding: 5%;
-    border-radius: 5% 50%;
+    padding: 1%;
+    border-radius: 8%;
     color: white;
+    outline: 2px solid black;
 }
-.gradient .tryforfree a{
+
+.gradient .tryforfree a {
     list-style-type: none;
     text-decoration: none;
     color: #ffffff;
 }
+
 .gradient .tryforfree i {
+    margin: 5px;
     position: absolute;
     top: 43%;
     left: 50%;
@@ -206,29 +207,29 @@ body {
 }
 
 
-.gradient .content pre {
+.gradient .text-content pre {
     font-size: 1.75rem;
     text-align: right;
     position: absolute;
     top: 25%;
-    left: 6%;
+    left: 7%;
 }
 
-.gradient .content .text pre {
+.gradient .text-content .text pre {
     font-size: medium;
     position: absolute;
-    top: 50%;
-    left: 12%;
+    top: 53%;
+    left: 17%;
 }
 
-.gradient .content {
+.gradient .text-content {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
 }
 
 .carousel-container {
     position: relative;
-    left: 50%;
+    left: 62%;
     width: 50%;
 }
 
@@ -236,94 +237,94 @@ body {
     box-shadow: rgb(4, 82, 124) 0px 50px 100px -20px, rgb(4, 82, 124) 0px 30px 60px -30px, rgb(4, 82, 124) 0px -2px 6px 0px inset;
 }
 
-.use-case {
-    padding: 16px 0;
-    background-image: url('img/use-case-bg.jpg');
-    /* display: flex; */
-    /* justify-content:space-around; */
-    text-align: center;
-    height: 85vh;
-    color: rgb(255, 255, 255);
-    display: grid;
-    grid-template-columns: auto auto auto;
-    position: relative;
-}
-
-.use-case #use-case-heading {
-    font-size: xx-large;
-    position: absolute;
-    left: 0.75vw;
-}
-
-.use-case .use-case-boxes {
-    padding: 16px 0;
-    height: auto;
-}
-
-
-.use-case .use-case-boxes img {
-    height: 22vh;
-    border-radius: 50%;
-    filter: drop-shadow(10px 4px 20px rgb(169, 217, 234, 0.69));
-}
-
 .default-audio {
+    position: relative;
     padding: 16px 0;
     background-image: url('img/wallpaperflare.com_wallpaper.jpg');
     position: relative;
 }
 
-.default-audio .eng {
-    display: flex;
-    justify-content: center;
+.eng audio {
     position: relative;
-    left: -2%;
+    left: 40%;
 }
 
 #eng-audio {
+    font-size: medium;
     position: relative;
-    margin: 16px 0;
-    left: 21%;
+    margin: 8px 0;
+    left: 47%;
+}
+.regional-default-audio{
+    margin: 1%;
+    padding: .5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.regional-default-audio #telugu-aud {
+    position: relative;
+    padding: .5% 0;
+    width: 14%;
 }
 
 #telugu-audio {
-    color: white;
-    font-size: large;
+    font-size: small;
     position: absolute;
-    top: -50%;
-    left: 6%;
+    top: -30%;
+    left: 5%;
+}
+
+.regional-default-audio #marathi-aud {
+    position: relative;
+    padding: .5% 0;
+    width: 14%;
 }
 
 #marathi-audio {
-    color: white;
-    font-size: large;
+    font-size: small;
     position: absolute;
-    top: -50%;
-    left: 26%;
+    top: -30%;
+    left: 27%;
+}
+
+.regional-default-audio #hindi-aud {
+    position: relative;
+    padding: .5% 0;
+    width: 14%;
 }
 
 #hindi-audio {
-    color: white;
-    font-size: large;
+    font-size: small;
     position: absolute;
-    top: -50%;
-    left: 48%;
+    top: -30%;
+    left: 49%;
+}
+
+.regional-default-audio #gujarati-aud {
+    position: relative;
+    padding: .5% 0;
+    width: 14%;
 }
 
 #gujarati-audio {
-    color: white;
-    font-size: large;
+    font-size: small;
     position: absolute;
-    top: -50%;
-    left: 68%;
+    top: -30%;
+    left: 69%;
+}
+
+.regional-default-audio #bangla-aud {
+    position: relative;
+    padding: .5% 0;
+    width: 14%;
 }
 
 #bangla-audio {
-    color: white;
-    font-size: large;
+    font-size: small;
     position: absolute;
-    top: -50%;
-    left: 90%;
+    top: -30%;
+    left: 91%;
 }
 
 .regional-default-audio {
@@ -340,7 +341,34 @@ body {
     color: white;
 }
 
-.botStyle{
+
+.use-case #use-case-heading {
+    font-size: large;
+    position: absolute;
+    left: 0.75vw;
+}
+
+.use-case {
+    background-image: url('img/use-case-bg.jpg');
+    color: white;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.use-case .use-case-boxes {
+    margin: auto;
+    padding: 8px 0;
+    height: auto;
+}
+
+.use-case .use-case-boxes img {
+    height: 16vh;
+    border-radius: 50%;
+    filter: drop-shadow(10px 4px 20px rgba(169, 217, 234, 0.69));
+}
+
+.botStyle {
     background-color: red;
 }
 
